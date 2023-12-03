@@ -195,6 +195,7 @@
                 <arg>-Xmaxwarns</arg>
                 <arg>10000</arg>
                 <arg>-AassumePure</arg>
+                <arg>-AwarnUnneededSuppressions</arg>
                 <!-- <arg>-Awarns</arg> --> <!-- -Awarns turns type-checking errors into warnings. -->
               </compilerArgs>
             </configuration>
