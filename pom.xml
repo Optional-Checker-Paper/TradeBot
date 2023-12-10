@@ -17,6 +17,12 @@
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
+	<repository>
+	  <id>snapshots-repo</id>
+	  <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+	  <releases><enabled>false</enabled></releases>
+	  <snapshots><enabled>true</enabled></snapshots>
+	</repository>
     </repositories>
     <dependencies>
         <dependency>
@@ -32,7 +38,7 @@
         <dependency>
       <groupId>org.checkerframework</groupId>
       <artifactId>checker-qual</artifactId>
-      <version>3.40.0</version>
+      <version>3.41.1-SNAPSHOT</version>
     </dependency>
     </dependencies>
 
