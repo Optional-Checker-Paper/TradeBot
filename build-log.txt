@@ -1,0 +1,88 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< org.example:tradebot >------------------------
+[INFO] Building tradebot 0.10.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/com/github/binance-exchange/binance-java-api/master-SNAPSHOT/maven-metadata.xml
+Downloading from jitpack.io: https://jitpack.io/com/github/binance-exchange/binance-java-api/master-SNAPSHOT/maven-metadata.xml
+Progress (1): 401 B                   Downloaded from jitpack.io: https://jitpack.io/com/github/binance-exchange/binance-java-api/master-SNAPSHOT/maven-metadata.xml (401 B at 849 B/s)
+Downloading from jitpack.io: https://jitpack.io/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/maven-metadata.xml
+[INFO] 
+[INFO] --- resources:3.2.0:copy-resources (copy-config-files) @ tradebot ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Using 'null' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- resources:3.2.0:copy-resources (copy-jre) @ tradebot ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Using 'null' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /tmp/experiments/optional-paper-counts-repos/TradeBot/exe-config/java-runtime
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ tradebot ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Using 'null' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ tradebot ---
+Downloading from jitpack.io: https://jitpack.io/org/checkerframework/checker/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from jitpack.io: https://jitpack.io/org/checkerframework/checker-util/3.41.1-SNAPSHOT/maven-metadata.xml
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 23 source files to /tmp/experiments/optional-paper-counts-repos/TradeBot/target/classes
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/system/ConfigSetup.java:[50,32] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/system/ConfigSetup.java:[50,54] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/system/ConfigSetup.java:[50,54] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/system/ConfigSetup.java:[50,48] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/system/ConfigSetup.java:[53,20] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/system/ConfigSetup.java:[53,39] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/system/ConfigSetup.java:[53,39] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/system/ConfigSetup.java:[53,36] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/system/ConfigSetup.java:[57,65] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/system/ConfigSetup.java:[57,58] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/system/ConfigSetup.java:[57,37] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/system/ConfigSetup.java:[57,33] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[156,25] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[156,202] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[156,202] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[156,198] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[157,25] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[157,205] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[157,205] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[157,201] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[158,36] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[158,26] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[159,40] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[159,36] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[177,35] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[177,25] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[179,65] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[179,61] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[180,171] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/trading/BuySell.java:[180,167] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[105,37] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[105,220] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[105,220] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[105,216] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[106,37] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[106,230] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[106,230] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[106,226] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[107,41] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[107,31] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[108,67] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[108,63] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[109,122] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[109,118] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[113,47] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[113,37] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[114,81] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[114,77] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[117,55] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/TradeBot/src/main/java/modes/Live.java:[117,51] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.255 s
+[INFO] Finished at: 2023-12-14T12:04:34-08:00
+[INFO] ------------------------------------------------------------------------
